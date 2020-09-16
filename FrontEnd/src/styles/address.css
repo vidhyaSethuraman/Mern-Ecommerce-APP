@@ -1,0 +1,54 @@
+        .addr-container
+        {
+            margin:6% auto; 
+        }
+        
+        .addr-checkout-items
+        {
+            box-shadow: 0 4px 8px 0 rgba(146, 6, 123, 0.2);
+            margin-bottom: 1rem;
+            width:500px;
+            padding: 1rem 1rem;
+            text-align: left;
+        }
+
+        .addr-checkout-items span
+        {
+            font-size: 18px;
+            font-weight: bold;
+            
+        }
+
+       .addr-checkout-items p
+       {
+            line-height: 10px;
+       }
+        .addr-checkout-header
+        {
+            display: flex;
+            width: 500px;
+            background-color: #af2174;
+            justify-content: space-between;
+            color:white;
+            font-weight: bolder;
+            font-size: 20px;
+            padding:0.5rem 1rem;
+        }
+
+        .buy-btn
+        {
+            width: 500px;
+            background-color: #af2174;
+            color:white;
+            font-weight: bolder;
+            font-size: 20px;
+            padding:0.5rem 1rem;
+            border:none;
+            outline:none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .buy-btn:hover{
+            background-color: #d13891;
+        }

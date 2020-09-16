@@ -1,0 +1,55 @@
+.payment-box
+{
+    margin: 1% auto;
+    width:35rem;
+    box-shadow: 0 4px 8px 0 rgba(146, 6, 123, 0.2);
+    margin-bottom: 2rem;
+    padding:1rem 1rem;
+    color: #af2174;
+}
+.payment-box input[type=text]{
+    display:block;
+    padding: 0.5rem 1rem;
+    margin:0.7rem 1.3rem;
+    outline:none;
+    border: 1.5px solid  #af2174;
+    color:#af2174;
+    width:14rem;
+}
+.payment-box span{
+    font-size:18px;
+    font-weight: bold;
+}
+.payment-box button
+{
+    padding: 0.6rem 0rem;
+    margin:0.5rem 0rem;
+    width: 13rem;
+    background: linear-gradient(90deg,#e946a5,#8d0f58);
+    border:none;
+    outline:none;
+    color:white;
+}
+
+.payment-box button:hover
+{
+    background: linear-gradient(45deg,#e946a5, gold);
+}
+
+.payment-card
+{
+    display: flex;
+}
+
+.payment-header
+{
+    display: flex;
+    width: 35rem;
+    background-color: #af2174;
+    justify-content: space-between;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding:0.5rem 1rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,54 @@
+.container
+{
+  margin: 6% auto;
+  height: 30rem;
+  width:25rem;
+  box-shadow: 0 4px 8px 0 rgba(146, 6, 123, 0.2);
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #af2174;
+}
+.container input
+{
+  padding: 0.5rem 1.5rem;
+  margin:0.5rem 0rem;
+  outline:none;
+  border: 1.5px solid  #af2174;
+  color:#af2174;
+}
+
+.container button
+{
+  padding: 0.5rem 0rem;
+  margin:0.5rem 0rem;
+  width: 16rem;
+  background: linear-gradient(90deg,#e946a5,#8d0f58);
+  border:none;
+  outline:none;
+  color:white;
+  margin-bottom: 50px;
+}
+
+.container button:hover
+{
+  background: linear-gradient(45deg,#e946a5, gold);
+}
+
+.container h3
+{
+  margin-bottom: 20px;
+}
+
+.container form
+{
+  padding-top:2rem;
+}
+
+#toast-container
+{
+  top:20px;
+  right:20px;
+  width:200px;
+  padding:20px 10px;
+  height: 40px;
+}

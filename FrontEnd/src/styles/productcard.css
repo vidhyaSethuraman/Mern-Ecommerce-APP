@@ -1,0 +1,58 @@
+.product-card
+{
+    display: flex;flex-wrap: wrap;justify-content: space-around;margin:1rem 3rem;
+    text-align: center;
+}
+
+.product-card h5
+{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color:rebeccapurple;
+}
+
+.product-card h6
+{
+    color:palevioletred;
+}
+
+.product-card p
+{
+    color:goldenrod;
+}
+
+.product-card button
+{
+    padding: 0.3rem 0.7rem;
+    border-radius: 30px;
+    border: 3px solid gold;
+    outline:none;
+    color:purple;
+    background-color:white;
+    font-weight: 200;
+}
+
+.product-card button:hover 
+{
+    background: linear-gradient(45deg,#e946a5, gold);
+}
+
+.product-image
+{
+    height: 26rem; width: 18rem;background-repeat: no-repeat;background-size: contain;
+}
+.product-details
+{
+    margin-bottom: 2rem;
+    padding: 0.5rem 0rem; 
+}
+
+.product-item
+{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);margin-bottom: 2rem;
+}
+
+.product-item form
+{
+display: inline;
+}

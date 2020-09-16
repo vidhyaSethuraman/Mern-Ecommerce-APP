@@ -1,0 +1,22 @@
+.order-placed
+{
+    box-shadow: 0 4px 8px 0 rgba(146, 6, 123, 0.2);
+    padding:2.5rem 1rem;
+    color: #af2174;
+    margin:7% auto;
+    width:35rem;
+    text-align: center;
+}
+.order-placed button
+{
+    box-shadow: 0 4px 8px 0 rgba(146, 6, 123, 0.2);
+    border:none;
+    outline:none;
+    padding:0.5rem 1rem;
+    color:#af2174;
+    background-color: transparent;
+}
+.order-placed button:hover
+{
+    box-shadow: 0 4px 8px 0 rgba(243, 240, 48, 0.966);
+}

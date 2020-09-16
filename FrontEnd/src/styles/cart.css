@@ -1,0 +1,80 @@
+
+            .cart-box
+            {
+                margin:3% auto;
+            }
+            .cart-items
+            {
+                
+                box-shadow: 0 4px 8px 0 rgba(146, 6, 123, 0.2);
+                margin-bottom: 1rem;
+                display: flex;
+                width: 500px;
+            }
+            .cart-items div
+            {
+                padding:1rem 1rem;
+            }
+            .cart-items h5
+            {
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                
+            }
+            .cart-items h6
+            {
+                font-size:15px;
+               
+            }
+            .cart-items p
+            {
+                
+            }
+            .cart-items button
+            {
+                padding:0.4rem 0.7rem;
+                background: linear-gradient(90deg,#e946a5,#8d0f58);
+                border:none;
+                outline:none;
+                color:white;
+                margin-left: 10px;
+            }
+
+            .cart-items button:hover
+            {
+                background: linear-gradient(45deg,#e946a5, gold);
+            }
+
+            .cart-items form
+            {
+                display: inline;
+            }
+
+            .cart-header
+            {
+                display: flex;
+                width: 500px;
+                background-color: #af2174;
+                justify-content: space-between;
+                color:white;
+                font-weight: bolder;
+                font-size: 20px;
+                padding:0.5rem 1rem;
+            }
+
+            .buy-btn
+            {
+                width: 530px;
+                background-color: #af2174;
+                color:white;
+                font-weight: bolder;
+                font-size: 20px;
+                padding:0.5rem 1rem;
+                border:none;
+                outline:none;
+            }
+
+            .buy-btn:hover{
+                background-color: #d13891;
+            }
