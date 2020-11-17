@@ -5,7 +5,7 @@ const Order= require('../models/orders');
 
 
 module.exports.cart_delete = async (req,res) => {
-  console.log("IN CART DELETEEEEEEEEEE");
+  
   var id = req.params.id;
   var userinfo = res.locals.user;
   try
